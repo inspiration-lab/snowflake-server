@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: product
+  application:
+    name: snowflake-server
+  thymeleaf:
+    prefix: classpath:template/
+
+server:
+  port: 8001
+
+snowflake:
+  worker-id: 1
+
